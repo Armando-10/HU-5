@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/divisiones/registro")
+@CrossOrigin(origins = "http://localhost:4200")
 public class DivisionRegistrationController {
 
     private final DivisionRegistrationService registrationService;
